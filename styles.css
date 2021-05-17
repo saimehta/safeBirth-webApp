@@ -1,25 +1,2 @@
 @charset "UTF-8";
 /* CSS Document */
-
-html,
-html * {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-}
-
-header {
-	width: 100%;
-	top: 0px;
-	padding: 0em;
-	position: absolute;
-	color: #862222;
-}
-
-header h1 {
-	color: #FFFFFF;
-	font-size: 5.0em;
-	text-align: center;
-}
-
-body {
-	background-color: #862222
-}
