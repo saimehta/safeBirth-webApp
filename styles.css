@@ -1,2 +1,83 @@
 @charset "UTF-8";
 /* CSS Document */
+body {
+    background-color: #862222;
+    font-family: helvetica;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 46px;
+    font-family: helvetica;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: helvetica;
+    font-weight: lighter;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+}
+
+/* Classes */
+.main_content {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 60%;
+}
+
+.section_title {
+    display: flex;
+    justify-content: center;
+}
+
+.text_box {
+    display: flex;
+    justify-content: center;
+}
+
+.enter_button {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+}
+
+.action_button {
+    display: flex;
+    justify-content: center;
+}
+
+/* IDs */
+#register {
+}
+
+#login {
+}
+
+#vertical_line {
+    background-color: gray;
+    width: 2px;
+}
+
+#forgot_info {
+    padding: 40px 0px;
+}
