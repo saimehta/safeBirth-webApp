@@ -53,6 +53,7 @@ button {
 .text_box {
     display: flex;
     justify-content: center;
+    padding: 2px 0px;
 }
 
 .enter_button {
