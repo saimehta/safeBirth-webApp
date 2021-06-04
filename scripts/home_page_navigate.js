@@ -20,7 +20,6 @@ function homePageNavigate(buttonId) {
 
 const buttons = document.querySelectorAll('button')
 buttons.forEach((button) => {
-    console.log(button.id)
     button.addEventListener('click', () => {
         homePageNavigate(button.id);
     });
