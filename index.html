@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>SafeBirth</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="stylesheet/index.css">
 </head>
 
 <body>
@@ -14,7 +14,7 @@
 	</header>
 	<main>
 		<div class="main_content">
-			<div id="register">
+			<div>
 				<div class="section_title">
 					<h3>Register</h3>
 				</div>
@@ -23,12 +23,12 @@
 						<input type="text" placeholder="Enter User ID">
 					</div>
 					<div class="enter_button">
-						<button type="submit">Enter</button>
+						<button id="register" type="submit">Enter</button>
 					</div>
 				</div>
 			</div>
 			<div id="vertical_line"></div>
-			<div id="login">
+			<div>
 				<div class="section_title">
 					<h3>Login</h3>
 				</div>
@@ -41,15 +41,15 @@
 							<input type="text" placeholder="Password">
 						</div>
 						<div class="enter_button">
-							<button type="submit">Enter</button>
+							<button id="login" type="submit">Enter</button>
 						</div>
 					</div>
 					<div id="forgot_info">
-						<div class="action_button" id="forgot_id">
-							<button type="submit">Forgot User ID</button>
+						<div class="action_button">
+							<button id="forgot_id"type="submit">Forgot User ID</button>
 						</div>
-						<div class="action_button" id="forgot_password">
-							<button type="submit">Forgot Password</button>
+						<div class="action_button">
+							<button id="forgot_password" type="submit">Forgot Password</button>
 						</div>
 					</div>
 				</div>
@@ -58,4 +58,5 @@
 	</main>
 	<footer></footer>
 </body>
+<script src="scripts/home_page_navigate.js"></script>
 </html>
