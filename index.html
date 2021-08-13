@@ -1,62 +1,74 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>SafeBirth</title>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>SafeBirth</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-<body>
-	<header>
-		<div class="page_title">
-			<h1>SafeBirth</h1>
-		</div>
-	</header>
-	<main>
-		<div class="main_content">
-			<div>
-				<div class="section_title">
-					<h3>Register</h3>
-				</div>
-				<div class="form_submission">
-					<div class="text_box">
-						<input type="text" placeholder="Enter User ID">
-					</div>
-					<div class="enter_button">
-						<button id="register" type="submit">Enter</button>
-					</div>
-				</div>
-			</div>
-			<div id="vertical_line"></div>
-			<div>
-				<div class="section_title">
-					<h3>Login</h3>
-				</div>
-				<div class="form_submission">
-					<div class="user_input">
-						<div class="text_box">
-							<input type="text" placeholder="User ID">
-						</div>
-						<div class="text_box">
-							<input type="text" placeholder="Password">
-						</div>
-						<div class="enter_button">
-							<button id="login" type="submit">Enter</button>
-						</div>
-					</div>
-					<div id="forgot_info">
-						<div class="action_button">
-							<button id="forgot_id"type="submit">Forgot User ID</button>
-						</div>
-						<div class="action_button">
-							<button id="forgot_password" type="submit">Forgot Password</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</main>
-	<footer></footer>
-</body>
-<script src="scripts.js"></script>
+  <body>
+    <header>
+      <div class="page_title">
+        <h1>SafeBirth</h1>
+      </div>
+    </header>
+    <main>
+      <div class="main_content">
+        <div>
+          <div class="section_title">
+            <h3>Register</h3>
+          </div>
+          <div class="form_submission">
+            <div class="text_box">
+              <input type="text" placeholder="Enter User ID">
+            </div>
+            <div class="enter_button">
+              <button class="homepage_button" id="register" type="submit">
+                Enter
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="vertical_line"></div>
+        <div>
+          <div class="section_title">
+            <h3>Login</h3>
+          </div>
+          <div class="form_submission">
+            <div class="user_input">
+              <div class="text_box">
+                <input type="text" placeholder="User ID">
+              </div>
+              <div class="text_box">
+                <input type="text" placeholder="Password">
+              </div>
+              <div class="enter_button">
+                <button class="homepage_button" id="login" type="submit">
+                  Enter
+                </button>
+              </div>
+            </div>
+            <div id="forgot_info">
+              <div class="action_button">
+                <button class="homepage_button" id="forgot_id" type="submit">
+                  Forgot User ID
+                </button>
+              </div>
+              <div class="action_button">
+                <button
+                  class="homepage_button"
+                  id="forgot_password"
+                  type="submit"
+               >
+                  Forgot Password
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="scripts.js"></script>
 </html>
