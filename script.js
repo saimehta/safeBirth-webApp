@@ -19,8 +19,5 @@ function homePageNavigate(buttonId) {
   }
 }
 
-homeButtons.forEach(button) => 
-  button.addEventListener("click", () => {
-    homePageNavigate(button.id);
-  );
-});
+homeButtons.forEach(button) => button.addEventListener("click", homePageNavigate(button.id)
+);
