@@ -1,14 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
-body {
-    background-color: #862222;
-    color: white;
-}
 
 header {
     display: flex;
     justify-content: center;
 }
+
 h1 {
     font-size: 46px;
     font-family: helvetica;
@@ -37,6 +34,15 @@ button {
 }
 
 /* Classes */
+.login_page {
+    background-color: #862222;
+    color: #FFFFFF;
+}
+
+.forgot_page {
+    background-color: #F0F6F7;
+    color: #707070
+}
 .main_content {
     display: flex;
     justify-content: space-around;
