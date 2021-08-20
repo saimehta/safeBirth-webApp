@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SafeBirth</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="physician_page">
+    <main class="physician_content">
+      <div class="navigation_bar">
+	<div class="button_container">
+	  <div class="navigation_div">
+	    <button class="navigation_button"
+		    id="account_info"
+		    type="submit">
+	      Account
+	    </button>
+	  </div>
+	  <div class="navigation_div">
+	    <button class="navigation_button"
+		    id="patients_info"
+		    type="submit">
+	      Patients
+	    </button>
+          </div>
+	  <div class="navigation_div">
+	    <button class="navigation_button"
+		    id="mapping"
+		    type="submit">
+	      Mapping
+	    </button>
+	  </div>
+	</div>
+      </div>
+      <div class="physician_info">
+	<header>
+	  <h1 class="light_background">
+	    Visit Information
+	  </h1>
+	</header>
+	<div class="info_container">
+	  <div class="left">
+	    <div class="visit_information" id="visit_date">
+	      <h3 class="smaller">Visit Date</h3>
+	    </div>
+	    <div class="visit_information" id="recorder">
+	      <h3 class="smaller">Recorder</h3>
+	    </div>
+	    <div class="visit_information" id="age_months">
+	      <h3 class="smaller">Age (months)</h3>
+	    </div>
+	    <div class="visit_information" id="weight_kg">
+	      <h3 class="smaller">Weight (kg)</h3>
+	    </div>
+	    <div class="visit_information" id="muac">
+	      <h3 class="smaller">MUAC (mm)</h3>
+	    </div>
+	    <div class="visit_information" id="length_cm">
+	      <h3 class="smaller">Length (cm)</h3>
+	    </div>
+	    <div class="visit_information" id="wt_length_zscore">
+	      <h3 class="smaller">Wt for Length Z-Score</h3>
+	    </div>
+	  </div>
+	  <div class="right">
+	    <div class="visit_information" id="wt_age_zscore">
+	      <h3 class="smaller">Wt for Age Z-Score</h3>
+	    </div>
+	    <div class="visit_information" id="temp_f">
+	      <h3 class="smaller">Temperature (in F)</h3>
+	    </div>
+	    <div class="visit_information" id="diarrhea_vomiting">
+	      <h3 class="smaller">Diarrhea or Vomiting (Y/N)</h3>
+	    </div>
+	    <div class="visit_information" id="respiratory_illness">
+	      <h3 class="smaller">Respiratory Illness (Y/N)</h3>
+	    </div>
+	    <div class="visit_information" id="fever">
+	      <h3 class="smaller">Fever (Y/N)</h3>
+	    </div>
+	    <div class="visit_information" id="wt_gain_since_last">
+	      <h3 class="smaller">Weight Gain Since Last Visit (kg)</h3>
+	    </div>
+	    <div class="visit_information" id="wt_gain_per_day">
+	      <h3 class="smaller">
+		Weight Gain Per Day Since Last Visit (kg)
+	      </h3>
+	    </div>
+	  </div>
+	</div>
+	<div class="center_button">
+	  <div class="navigation_div">
+	    <button class="navigation_button" id="risk_score"
+		    type="submit">
+	      Risk Score Assessment
+	    </button>
+	  </div>
+	</div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SafeBirth</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="physician_page">
+    <main class="physician_content">
+      <div class="navigation_bar">
+	<div class="button_container">
+	  <div class="navigation_div">
+	    <button class="navigation_button"
+		    id="account_info"
+		    type="submit">
+	      Account
+	    </button>
+	  </div>
+	  <div class="navigation_div">
+	    <button class="navigation_button"
+		    id="patients_info"
+		    type="submit">
+	      Patients
+	    </button>
+          </div>
+	  <div class="navigation_div">
+	    <button class="navigation_button"
+		    id="mapping"
+		    type="submit">
+	      Mapping
+	    </button>
+	  </div>
+	</div>
+      </div>
+      <div class="physician_info">
+	<header>
+	  <h1 class="light_background" id="small_heading">
+	    Risk Score Assessment and Actions Taken
+	  </h1>
+	</header>
+	<div class="info_container">
+	  <div class="left">
+	    <div class="section_heading">
+	      <h3 class="smaller">Risk Assessment</h3>
+	    </div>
+	    <div class="risk_assessment" id="weight_more">
+	      <h3 class="smaller">Weight > 2kg</h3>
+	    </div>
+	    <div class="risk_assessment" id="weight_less">
+	      <h3 class="smaller">weight < 2kg</h3>
+	    </div>
+	    <div class="risk_assessment" id="danger_signs">
+	      <h3 class="smaller">Danger Signs Present</h3>
+	    </div>
+	    <div class="risk_assessment" id="family_factors">
+	      <h3 class="smaller">Family Risk Factors</h3>
+	    </div>
+	    <div class="risk_assessment" id="feeding">
+	      <h3 class="smaller">Feeding Practices</h3>
+	    </div>
+	    <div class="risk_assessment" id="total">
+	      <h3 class="smaller">Total Score</h3>
+	    </div>
+	  </div>
+	  <div class="right">
+	    <div class="section_heading">
+	      <h3 class="smaller">Actions Taken</h3>
+	    </div>
+	    <div class="actions_taken" id="routine_counseling">
+	      <h3 class="smaller">Routine Counseling</h3>
+	    </div>
+	    <div class="actions_taken" id="intensive_counseling">
+	      <h3 class="smaller">Intensive Counseling and Followup</h3>
+	    </div>
+	    <div class="actions_taken" id="referrel_cmtc">
+	      <h3 class="smaller">Referral to CMTC</h3>
+	    </div>
+	    <div class="actions_taken" id="referrel_hospital">
+	      <h3 class="smaller">Referral to Hospital</h3>
+	    </div>
+	  </div>
+	</div>
+	<div class="center_button">
+	  <div class="navigation_div">
+	    <button class="navigation_button" id="risk_score"
+		    type="submit">
+	      Risk Score Assessment
+	    </button>
+	  </div>
+	</div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="script.js"></script>
+</html>

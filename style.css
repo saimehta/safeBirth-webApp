@@ -23,10 +23,18 @@ input {
     justify-content: center;
 }
 
-main {
-    display: flex;
-    justify-content: center;
+html, body {
+    margin: 0;
+    height: 100vh;
 }
+
+/* main { */
+/*     display: flex; */
+/*     justify-content: center; */
+/*     height: 100%; */
+/*     width: 100%; */
+/*     margin: 0px; */
+/* } */
 
 button {
     display: flex;
@@ -34,15 +42,111 @@ button {
 }
 
 /* Classes */
-.login_page {
+.centered {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+}
+
+.index_page {
     background-color: #862222;
     color: #FFFFFF;
 }
 
 .forgot_page {
     background-color: #F0F6F7;
-    color: #707070
+    color: #707070;
+    height: 100%;
 }
+
+.physician_page {
+
+}
+
+.physician_content {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.navigation_bar {
+    background-color: #862222;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navigation_div {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.physician_info {
+    width: 85%;
+    height: 100%;
+    background-color: #F0F6F7;
+}
+
+.patient_content {
+    display: flex;
+    justify-content: center;
+}
+
+.patient_info {
+}
+
+.info_container {
+    display: flex;
+    justify-content: center;
+}
+
+.demographics_information {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    padding: 0px 15px;
+}
+
+.right {
+    padding: 0px 15px;
+}
+
+.smaller {
+    font-size: 18px;
+}
+
+.search_term {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+}
+
+.button_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.visit_button {
+    margin: 10px 0px;
+}
+
+.info_select {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+}
+
+.light_background{
+    color: #707070;
+}
+
 .main_content {
     display: flex;
     justify-content: space-around;
@@ -50,9 +154,16 @@ button {
     width: 40%;
 }
 
+.user_account {
+    padding: 0px 10px;
+}
+
 .section_title {
     display: flex;
     justify-content: center;
+}
+.edit_button {
+    padding: 0px 10px;
 }
 
 .text_box {
@@ -70,6 +181,7 @@ button {
 .action_button {
     display: flex;
     justify-content: center;
+    padding: 2px 0px;
 }
 
 /* IDs */
@@ -78,6 +190,7 @@ button {
     width: 2px;
 }
 
-#forgot_info {
-    padding: 40px 0px;
+#small_heading {
+    font-size: 36px;
 }
+
