@@ -1,0 +1,27 @@
+{
+  "name": "safebirth_webapp",
+  "version": "1.0.0",
+  "description": "Electronic Health Record",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabbers92/safeBirth-webApp.git"
+  },
+  "keywords": [
+    "EHR",
+    "Health",
+    "Record"
+  ],
+  "author": "Colin McNabb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabbers92/safeBirth-webApp/issues"
+  },
+  "homepage": "https://github.com/nabbers92/safeBirth-webApp#readme",
+  "dependencies": {
+    "firebase": "^8.10.0"
+  }
+}
